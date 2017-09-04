@@ -15,5 +15,7 @@ def current_player(board)
     current_player = "X"
   end
 
+  #current_player = turn_count(board) % 2 = 1 ? "O" : "X"
+
   return current_player
 end
